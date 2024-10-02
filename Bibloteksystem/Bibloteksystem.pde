@@ -33,6 +33,7 @@ public void showHomePage() {
   book.drawsBorrowButtons();
 }
 
+//Checking for every button there is a mousepressed method to switch functions in the program
 void mousePressed() {
   if (state == 1) {
     for (int i = 0; i < bookList.size(); i++) {
@@ -53,7 +54,7 @@ void mousePressed() {
           // Return the book if it is borrowed
           if (!bookList.get(i).isAvailable) {
             println("You returned: " + bookList.get(i).title);
-            bookList.get(i).isAvailable = true;  // Mark the book as returned
+            bookList.get(i).isAvailable = true;  // Marks the book as returned when clicked on button
           } else {
             println("Book is already available: " + bookList.get(i).title);
           }

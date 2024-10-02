@@ -49,14 +49,14 @@ class Book {
 
       // Draw the borrow button next to each book
       fill(0, 102, 204);
-      rect(x + 500, y, 100, 50);  // Adjust button size (width=100, height=50)
+      rect(x + 500, y, 100, 50); 
       fill(255);
       textSize(20);
       text("Borrow", x + 520, y + 30);
       
       // Draw the "Return" button next to each borrow button
       fill(204, 102, 0);
-      rect(x + 620, y, 100, 50);  // Return button
+      rect(x + 620, y, 100, 50); 
       fill(255);
       text("Return", x + 640, y + 30);
 
@@ -79,7 +79,7 @@ class Book {
       //Displaying our booklist for our user
       for (int i = 0; i < bookList.size(); i++) {
         bookList.get(i).display(x, y);
-        y += 180;// Increase Y position for the next book display
+        y += 180;
        
       }
     }
@@ -106,7 +106,7 @@ class Book {
       fill(0, 102, 204);
       rect(100, 900, 300, 80); // Draw the button
 
-
+      //The text on the button
       fill(255);
       textSize(28);
       text("Borrow/Return Books", 120, 950);
