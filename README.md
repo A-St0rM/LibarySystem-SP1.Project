@@ -1,6 +1,6 @@
 # LibarySystem - SP1.Project
 
-SP1 Project is the first coding project in 1. semester for the education. It has the following requirements: A small program in Processing that demonstrates your understanding of the fundamental programming elements. Your program should include the following:
+*SP1 Project is the first coding project in 1. semester for the education. It has the following requirements: A small program in Processing that demonstrates your understanding of the fundamental programming elements. Your program should include the following:*
 
 1. Variables and Data Types: Use int, float, String, and data structures such as arrays (array[]) or ArrayList.
 
